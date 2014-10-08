@@ -1,0 +1,236 @@
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+<title>Infermap</title>
+	
+
+
+	<meta name = "viewport" content = "width=device-width, maximum-scale = 1, minimum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="css/default.css" media="all" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+	<link rel="stylesheet" href="css/fixed-navigation.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css' />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/default.js"></script>
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="js/respond.min.js"></script>
+	<![endif]-->
+	
+    
+   
+   <link rel="stylesheet" href="css/custom.css" type="text/css" />	
+	
+	
+
+</head>
+
+<body >
+	<div id="pagewidth">
+		<div id="content">	
+			<section>
+				<header class="header">
+				
+				
+					<img id="logo" src="img/logo.png" />
+					<a href="index.html" id="home">Home</a>
+					<a href="#" id="login">Login|Register</a>
+		
+				
+				</header>
+			</section>
+			
+			<section class="main-header">
+				<div class="main-header-text">
+					<h3>"Your guide to right college"</h3>
+				</div>
+			</section>
+				
+		   <section class="icons">
+				<div class="first_row">
+					<div class="icons-row">                
+						<div id="keyword-text" class="text">Keyword Search</div>
+						<img src="./img/keyword%20%20hover.png" id="keyword-img" alt="keyword search">
+					  </div>
+					 <div class="icons-row">       
+						<div id="rank-text" class="text">Rank</div>	
+						<img src="./img/rank%20hover.png" id="rank-img" alt="search by rank">
+					  </div>
+					   <div class="icons-row">   
+						<div id="dept-text" class="text">Department</div>	
+						<img src="./img/depart%20%20hover.png" id="depart-img" alt="search by department">
+					  </div>
+				</div>
+				<div class="second_row">
+					   <div class="icons-row">   
+						<div id="guide-text" class="text">My College plan</div>	
+						<!--Add college Plan file here -->
+						<a href="college_plan.html"><img src="./img/step%20by%20step.png" id="stepbystep-img" alt="path finder"></a>
+					  </div>
+					   <div class="icons-row">   
+						<div id="location-text" class="text">Location</div>	
+						<img src="./img/location%20%20hover.png" id="location-img" alt="location search">
+				</div>
+					
+				 </div>
+			</section>
+		</div>
+		
+		<div class="data">
+			<div id="page1">
+				<form id="search-content" method="post" action="main.php" >
+					<div class="color-text">Start by typing a college name or city or state</div>
+					<input class="form-control" name="value" type="text" placeholder="Type your keyword">
+					<input type="hidden" name="search" value="keyword">
+					<button class="btn btn-success">GO</button>
+				</form>
+			</div>
+			
+			<div id="page2">
+				<form id="search-content" method="get" action="main.php" >
+					<div class="color-text">Exam finder</div>
+					<input type="hidden" name="search" value="rank">
+					<select class="form-control" name="exam" id="exam-select">
+						<option value="">Select Exam</option>
+						<option value="BITSAT">BITSAT</option>
+						<option value="GUJCET">GUJCET</option>
+						<option value="IITJEE Advance">IITJEE Advance</option>
+						<option value="IITJEE Mains(AIEEE)">IITJEE Mains(AIEEE)</option>
+						<option value="Kerala Engineering Entrance Examination (KEAM)">Kerala Engineering Entrance Examination (KEAM)</option>
+						<option value="MPPET">MPPET</option>
+						<option value="OJEE">OJEE</option>
+					</select>
+					<input type="number" class="form-control" name="rank" id="rank" placeholder="Your Rank">
+					<select class="form-control" name="category" id="exam-category">
+						<option value="">Select Category</option>
+					</select>
+					<button class="btn btn-success">GO</button>
+				</form>
+			</div>
+			
+			<div id="page3">
+				<form id="search-content" method="get" action="main.php"><br>
+					<div class="color-text">Pick a department:</div>
+					<br><select class="form-control" name="department">
+						<option value="">Select Department</option>
+						<option value="aero">Aerospace</option>
+						<option value="cham">Chemistry</option>
+						<option value="chem">Chemical</option>
+						<option value="civil">Civil</option>
+						<option value="cse">Computer Science</option>
+						<option value="elec">Electrical</option>
+						<option value="electronic">Electronics</option>
+						<option value="it">Information Technology</option>
+						<option value="math">Mathematics</option>
+						<option value="mech">Mechanical</option>
+						<option value="pharm">Pharmacy</option>
+						<option value="phy">Physics</option>
+					</select>
+					<input type="hidden" name="search" value="dept">
+					<button class="btn btn-success">GO</button>
+				</form>
+			</div>
+			
+			<div id="page4">
+				<form id="search-content" method="get" action="main.php" >
+					<div class="color-text">Search by location</div>
+					<input type="hidden" name="search" value="location">
+					<select class="form-control" name="state" id="state">
+						<option value="">Select state</option>
+						<option>Andhra Pradesh</option>
+						<option>Assam</option>
+						<option>Delhi</option>
+						<option>Gujarat</option>
+						<option>Jharkhand</option>
+						<option>Karnataka</option>
+						<option>Kerala</option>
+						<option>Madhya Pradesh</option>
+						<option>Maharashtra</option>
+						<option>Odisha</option>
+						<option>Punjab</option>
+						<option>Rajasthan</option>
+						<option>Tamil Nadu</option>
+						<option>Uttar Pradesh</option>
+						<option>Uttarakhand</option>
+						<option>West Bengal</option>
+					</select>
+					<select class="form-control" name="city" id="statecity">
+						<option value="">Select city</option>
+					</select>
+					<button class="btn btn-success">GO</button>
+				</form>
+			</div>
+			
+		</div>
+		
+	</div>
+	</div>
+	<div id="second">
+	
+	<iframe class="second_page" src="about.html" scrolling="no"></iframe>
+	
+	
+    
+    <script src="./homepage_files/jquery.js"></script>
+	<script type="text/javascript" src="./homepage_files/bootstrap.min.js"></script>
+	<script type="text/javascript">
+	var exams={'IITJEE Advance':['IITJEE Advance',["gen","obc","sc","st"]],'IITJEE Mains(AIEEE)':['IITJEE Mains(AIEEE)',["gen","obc","sc","st"]],'BITSAT':['BITSAT',["gen"]],'Kerala Engineering Entrance Examination (KEAM)':['Kerala Engineering Entrance Examination (KEAM)',["bh","bx","EZ","ku","lc","MU","sc","sm","st"]],'MPPET':['MPPET',["gen","obc","sc","st","state","rg_obc","rg_sc","rg_st"]],'GUJCET':['GUJCET',["cbopen","ds","icseop","rg_sc","rg_st","sebc","state"]],'OJEE':['OJEE',["gec","gew","sc","st","tfw","zz"]]	}
+	var categories={gen:'General',obc:'OBC',sc:'SC',st:'ST',state:'State Open',rg_obc:'Region/OBC',rg_sc:'Region/SC',rg_st:'Region/ST',EZ:'Ezhava',sm:'state merits',MU:'Muslim',VJ:'Vimukta Jati /Denotified Tribes',NT1:'Nomadic Tribes - B',NT2:'Nomadic Tribes-C',NT3:'Nomadic Tribes-D',gen_L:'General Female',gen_OP:'General Open',OBC_F:'OBC Female',OBC_OP:'OBC Open',sc_F:'SC Female',sc_OP:'SC Open',ST_F:'ST Female',ST_OP:'ST Open',lc:'Latin Catholic',bh:'Other Backward Hindu',bx:'Other Backward Christian',ku:'Kudumbi',sebc:'Socially and Educationally Backward Class',ds:'DS- Defence Services',cbopen:'CB-OPEN',icseop:'ICSE-OPEN',pc:'PC',eamcet:'EAMCET',bca:'Backward Class A',bcb:'Backward class B',bcc:'Backward Class C',bcd:'Backward Class D',bce:'Backward Class E',oc:'Open Competition',bc:' Backward Communities, other than Muslims',bcm:'Backward Communities, Muslims',mbc:'Most Backward Communities / Denotified Communities',sca:'SC Arundhathiyar',ur:'UR',zz:'Outside State',tfw:'Tution Fees Waiver',gec:'General Common',gew:'General Women'}
+	var departments={aero:"Aerospace",cham:"Chemistry",chem:"Chemical",civil:"Civil",cse:"Computer Science",elec:"Electrical",electronic:"Electronics",it:"Information Technology",math:"Mathematics",mech:"Mechanical",pharm:"Pharmacy",phy:"Physics"	};
+	var states={'Kerala':[],'Madhya Pradesh':[],'Gujarat':[],'Andhra Pradesh':[],'Tamil Nadu':[],'Rajasthan':[],'Uttar Pradesh':[],'Assam':[],'Delhi':[],'Uttarakhand':[],'Maharashtra':[],'Karnataka':[],'Odisha':[],'Jharkhand':[],'Punjab':[]};
+	states['Kerala'].push('Thiruvananthapuram');states['Kerala'].push('Kannur');states['Kerala'].push('Idukki');states['Kerala'].push('Calicut');states['Kerala'].push('Palakkad');states['Kerala'].push('Thrissur');states['Kerala'].push('Wayanad');states['Kerala'].push('Kottayam');states['Kerala'].push('Ernakulam');states['Kerala'].push('Kollam');states['Kerala'].push('Malappurm');states['Kerala'].push('Thodupuzha');states['Kerala'].push('Cochin');states['Kerala'].push('Alappuzha');states['Kerala'].push('Kodakara');states['Kerala'].push('Pathanamthitta');states['Kerala'].push('Malappuram');states['Kerala'].push('Theruvananthapuram');states['Kerala'].push('Perumbavoor');states['Kerala'].push('Muvarrupuzha');states['Madhya Pradesh'].push('Jabalpur');states['Madhya Pradesh'].push('Balaghat');states['Madhya Pradesh'].push('Mandleshwar ');states['Madhya Pradesh'].push('Bhopal');states['Madhya Pradesh'].push('Gwalior');states['Madhya Pradesh'].push('Ratlam');states['Madhya Pradesh'].push('Indore');states['Madhya Pradesh'].push('Khandwa');states['Madhya Pradesh'].push('Sehore');states['Madhya Pradesh'].push('Sagar');states['Madhya Pradesh'].push('Dewas');states['Madhya Pradesh'].push('Burhanpur');states['Madhya Pradesh'].push('Satna');states['Gujarat'].push('Ahmedabad');states['Gujarat'].push('Kalol');states['Gujarat'].push('Khedbrahma');states['Gujarat'].push('Rajkot');states['Gujarat'].push('Vadodara');states['Gujarat'].push('Junagadh');states['Gujarat'].push('Surat');states['Gujarat'].push('V.V.Nagar');states['Gujarat'].push('Wadhwan');states['Gujarat'].push('Changa ');states['Gujarat'].push('Godhra');states['Gujarat'].push('Bardoli');states['Gujarat'].push('Bharuch');states['Gujarat'].push('Bhavnagar');states['Gujarat'].push('Bhuj');states['Gujarat'].push('Dahod');states['Gujarat'].push('Gandhinagar');states['Gujarat'].push('Modasa');states['Gujarat'].push('Palanpur');states['Gujarat'].push('Patan');states['Gujarat'].push('Valsad');states['Gujarat'].push('Navsari');states['Gujarat'].push('Prantij');states['Gujarat'].push('Mehsana');states['Gujarat'].push('Himmatnagar');states['Gujarat'].push('Kera');states['Gujarat'].push('Petlad');states['Gujarat'].push('Waghodia');states['Gujarat'].push('Botad');states['Gujarat'].push('Anand');states['Gujarat'].push('Jamnagar');states['Gujarat'].push('Morbi');states['Gujarat'].push('Visnagar');states['Gujarat'].push('Daskroi');states['Gujarat'].push('Dholka');states['Gujarat'].push('Unjha');states['Gujarat'].push('Kadi');states['Gujarat'].push('Valia');states['Gujarat'].push('Vasad');states['Gujarat'].push('Olpad');states['Andhra Pradesh'].push('Visakhapatnam');states['Tamil Nadu'].push('Chennai');states['Tamil Nadu'].push('Melmaruvathur');states['Tamil Nadu'].push('Kancheepuram ');states['Tamil Nadu'].push('Sriperumbudur');states['Tamil Nadu'].push('Kanchipuram');states['Tamil Nadu'].push('Thiruvallur');states['Tamil Nadu'].push('Tiruvallur');states['Rajasthan'].push('Pilani');states['Uttar Pradesh'].push('Varanasi');states['Assam'].push('Guwahati');states['Uttar Pradesh'].push(' Kanpur');states['Delhi'].push('Rohini');states['Andhra Pradesh'].push('Hyderabad');states['Tamil Nadu'].push(' Vellore');states['Delhi'].push('Outer Ring Rd');states['Uttarakhand'].push('Roorkee');states['Maharashtra'].push('Mumbai');states['Karnataka'].push('Mangalore');states['Andhra Pradesh'].push('Warangal');states['Tamil Nadu'].push('Coimbatore');states['Tamil Nadu'].push(' Tiruchirappalli');states['Delhi'].push('Dwarka');states['Uttar Pradesh'].push('Allahabad');states['Odisha'].push('Rourkela');states['Maharashtra'].push('Pune');states['Jharkhand'].push('Ranchi');states['Uttar Pradesh'].push('Kanpur');states['Punjab'].push('Patiala');states['Punjab'].push('Chandigarh');states['Maharashtra'].push('Matunga East');states['Tamil Nadu'].push('Kalavakkam');states['Tamil Nadu'].push('Kariseri');states['Odisha'].push('Bhubaneswar');states['Odisha'].push('Bhavanipatna');states['Odisha'].push('Sarang');states['Odisha'].push('Keonjhar');states['Odisha'].push('Berhampur');states['Odisha'].push('Burla');states['Odisha'].push('Anugul');states['Odisha'].push('Cuttack');states['Odisha'].push('Balasore');states['Odisha'].push('Bhadrak');states['Odisha'].push('Khurda');states['Odisha'].push('Jharsuguda');states['Odisha'].push('Gunupu');states['Odisha'].push('Raygada');states['Odisha'].push('Janla');states['Odisha'].push(' Cuttack');	</script>
+	
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	
+	<script type="text/javascript">
+		window.onload = function() {
+			$(".nextslide").click(function(e) {
+                var page = "#page" + $(this).data("mydata");
+                var newpage = "#page" + ($(this).data("mydata")+1);
+				$(page).css("display","none");
+				$(newpage).css("display","block");
+            });
+			
+			$("#keyword-img").hover(function() {
+				$("#page1").show();
+				$("#page2").hide();
+				$("#page3").hide();
+				$("#page4").hide();
+			});
+			
+			$("#rank-img").hover(function() {
+				$("#page2").show();;
+				$("#page1").hide();
+				$("#page3").hide();
+				$("#page4").hide();
+			});
+			
+			$("#depart-img").hover(function() {
+				$("#page3").show();;
+				$("#page2").hide();
+				$("#page1").hide();
+				$("#page4").hide();
+			});
+			
+			$("#location-img").hover(function() {
+				$("#page4").show();;
+				$("#page2").hide();
+				$("#page3").hide();
+				$("#page1").hide();
+			});
+			
+			
+			$(".second_page").css("height",$('iframe').contents().height());
+			
+			
+		}
+	</script>
+	
+	</div>	
+    
+</body>
+</html>

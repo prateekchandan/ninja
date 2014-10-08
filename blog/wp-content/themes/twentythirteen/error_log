@@ -1,0 +1,1 @@
+[26-Jun-2014 13:10:14 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/infermap/public_html/blog/wp-content/themes/twentythirteen/index.php on line 17

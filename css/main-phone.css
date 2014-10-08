@@ -1,0 +1,323 @@
+@font-face {
+    font-family: infermap;
+  src: url(../data/css/fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: we_are_hiring;
+  src: url(../data/css/fonts/BebasNeue.otf);
+}
+body {
+    font-family: infermap;
+    overflow-x:hidden; 
+    padding-top: 80px;
+    color: #444;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  /*  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;*/
+}
+
+::-webkit-scrollbar-thumb {
+  /*  border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6); */
+    background: #888;
+}
+#brand-img{
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	top:0px;
+	margin-left: 0px;
+	z-index: 100;
+	width: 40px;
+}
+.top-bar{
+	position: fixed;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	background-color: #02294A;
+	height: 50px;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 50px;
+	z-index: 10;	
+	font-family: we_are_hiring;
+}
+.top-bar li{
+	margin-right: -2px;
+	height: 100%;
+	width: 22%;
+	display: inline-block;
+	text-align: center;
+	border-left: 2px solid white;
+	padding: 6px;
+}
+
+.top-bar li:first-child{
+	border-left: 0px;
+	width: 22%;
+	margin-left: 10%;
+}
+.top-bar li a {
+	display: block;
+	color: white ;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+.top-bar li a:hover{
+	color:#f7f7f7;
+}
+
+/* SEARCH BAR STYLING  */
+.second-bar{
+	position: fixed;
+	width: 100%;
+	background: #ccc;
+	top: 50px;
+	left: 0px;
+	height: 32px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 10;
+}
+#search-form{
+	margin-left: 50%;
+	width: 50%;
+}
+#keyword-value{
+	width: 70%;
+	padding: 2px;
+	margin: 2px;
+	padding-left: 10px;
+	color: #666;
+	height: 29px;
+}
+.searchbar-btn{
+	background-color: #fff;
+	border: 0px;
+	padding: 3px;
+	width: 29px;
+	margin-left: -37px;
+}
+
+/*** Sidebar Navigation **/
+.sidebar{
+	position: absolute;
+	top:82px;
+	left:-60%;
+	width: 60%;
+	min-height: 100%;
+	background: #555;
+	z-index: 9;
+	padding-top: 30px;
+}
+
+.sidebar .marker{
+	box-shadow: 0px 0px 10px #ccc;
+	position: absolute;
+	top: 200px;
+	height: 44px;
+	width: 50px;
+	right: -53px;
+	border: 1px solid #eee;
+	border-bottom-right-radius: 7px;
+	border-top-right-radius: 7px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	background: #555;
+	color: #eee;
+}
+
+.sidebar-list{
+	list-style: none;
+	font-size: 1.3em;
+	padding: 0px;
+	margin: 0px;
+}
+.filter-name{
+	font-family: we_are_hiring;
+}
+
+.sidebar-list li{
+	
+}
+.sidebar-list li a{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #bbb;
+	cursor: pointer;
+}
+.tab-selector{
+	background: #ccc;
+	width: 5px;
+	height: 17px;
+	padding: 2px;
+	display: inline-block;
+	margin-right: 4px;
+}
+.filter-content{
+	display: none;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    background: #bbb;
+}
+.filter-content a h4{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.sidebar-list li.filter-content a{
+	overflow: auto;
+	color:#222;
+	font-size: 16px;
+}
+.tab-selector-active{
+	background: orange;
+}
+
+
+/*** FORM INPUT STYLE  **/
+.form-control{
+	display: block;
+width: 100%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.428571429;
+color: #555;
+vertical-align: middle;
+background-color: #fff;
+border: 1px solid #ccc;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.col-md-4{
+	width: 30%;
+	float: left;
+}
+.col-md-8{
+	width: 70%;
+	float: left;
+}
+
+.btn{
+	display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.428571429;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+border: 1px solid transparent;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+.btn-submit{
+	margin-left: 35%;
+margin-top: 10px;
+min-width: 30%;
+border-radius: 0px;
+background-color: #FFB413;
+}
+
+.row{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	overflow: auto;	
+}
+
+/* Search results */
+.match-show{
+	font-size: 1.2em;
+	color: #D15C00;
+	font-weight: normal;
+}
+
+.match-show1{
+	font-size: 0.9em;
+	color: #D15C00;
+	font-weight: normal;
+}
+
+img{
+	max-height: 125px;
+	margin: auto;
+}
+
+.college-box {
+width: 95%;
+border: 1px solid #BDBDBD;
+margin:auto;
+margin-top: 9px;
+padding: 10px;
+box-shadow: 0px 0px 6px #ccc;
+overflow: auto;
+}
+.logo-div {
+width: 20%;
+height: 50px;
+float: left;
+}
+.logo-img {
+width: 50px;
+height: 50px;
+}
+.college-name{
+	float: left;
+	width: 80%;
+	height: 50px;
+	line-height: 25px;
+	overflow: hidden;
+}
+.college-name a{
+	padding-left: 4px;
+	display: block;
+	color: #428bca;
+}
+.orange-state{
+	width: 49%;
+	float: left;
+	color: orange;
+	border-right: 1px solid #ccc; 
+}
+.univ{
+	width: 49%;
+	float: left;
+	margin-left: 2px;
+	color: orange;
+}
+.facility-icon{
+	width: 25%;
+	text-align: center;
+	float: left;
+}
+.icon-row{
+	width: 100%;
+	margin-top: 10px;
+	float: left;
+}
+.facility-icon i{
+	line-height: 1.3em;
+}

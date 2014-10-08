@@ -1,0 +1,96 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding-top: 0px;
+  min-width:300px;
+  min-height: 400px;
+  overflow:hidden;
+  background-color: #011e38;
+}
+.twitter-typeahead{
+  background-color: white !important;
+  display:table-cell !important;
+  margin-top:10px !important;
+}
+.tt-suggestions{
+      background-color: rgba(245,245,245,0.8);
+      color:#111;
+      border-radius: 4px !important;
+      min-width: 400px;
+    }
+.tt-suggestion{
+      border-bottom: 1px solid #aaa!important;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
+    .tt-hint{
+      top:4px !important;
+      left:12px !important;
+      color:rgba(8,8,8,0.3);
+      min-width:100% !important;
+    }
+.first{
+  min-height:70%;
+  background-color: #fff;
+}
+.second{
+  padding-top: 10px;
+  min-height:27%;
+  background-color: #111;
+}
+li{
+  display: block;
+}
+#imgmain{
+  height: 24%;
+  position:absolute;
+  top:58%;
+  left:40%;
+  z-index:1;
+}
+.l1{
+  font-size: 1.5em;
+  color: #aaa;
+  font-family: monospace;
+}
+a,a:hover,a:focus{
+  color: #aaa;
+}
+#heading{
+  margin-top: 9%;
+  margin-bottom: 2%;
+  width:36%;
+  margin-left: 32%;
+}
+
+.login-form 
+{
+  border:2px solid;
+  border-color: #B0C4C7;
+  box-shadow: 5px 5px 5px #B0C4C7;
+  background-color: #ffffff;
+}
+#login , #reg{
+  background-color: #ffffff;
+}
+.lognav{
+  background-color: #f5f5f5;
+}
+.form-horizontal{
+  padding: 40px 40px;
+}
+#connectwith{
+  font-family: monospace;
+  text-align: center;
+}
+.btn-fb:hover, .btn-fb:focus, .btn-fb:active, .btn-fb.active{
+color: #fff;
+background-color: #002e93;
+border-color: #002e93;
+}
+.btn-fb{
+  background-color: #002ea3;
+}

@@ -1,0 +1,99 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  min-width:300px;
+  min-height: 400px;
+}
+
+.vert-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: 50%;
+  color: #aaaaaa;
+}
+#imgmain
+{
+  position: relative;
+     z-index:2;
+}
+#vert-text{
+  margin-bottom: 2%;
+  margin-top: 10%;
+  font-size: 4.5em;
+}
+#ins1
+{
+  color: #ffffff;
+}
+.vert-text{
+  padding: 0;
+  margin: 0;
+  font-weight: 10;
+}
+
+#coming-soon
+{
+  height:25%;
+  width:100%;
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  z-index:1;
+}
+.myheader {
+  display: table;
+  height: 100%;
+  width: 101.2%;
+  position: relative;
+}
+.vert-text{
+   background: url(../img/bg.JPG) no-repeat center center; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.footer{
+  text-align: center;
+}
+.l1{
+  font-size: 25px;
+  font-family: monospace;
+}
+footer {
+  padding: 100px 0;
+   height: 100%;
+  width: 100%;
+}
+
+.login-form 
+{
+  border:2px solid;
+  border-color: #B0C4C7;
+  box-shadow: 5px 5px 5px #B0C4C7;
+  background-color: #ffffff;
+}
+#login , #reg{
+  background-color: #ffffff;
+}
+.lognav{
+  background-color: #f5f5f5;
+}
+.form-horizontal{
+  padding: 40px 40px;
+}
+#connectwith{
+  font-family: monospace;
+  text-align: center;
+}
+.btn-fb:hover, .btn-fb:focus, .btn-fb:active, .btn-fb.active{
+color: #fff;
+background-color: #002e93;
+border-color: #002e93;
+}
+.btn-fb{
+  background-color: #002ea3;
+}

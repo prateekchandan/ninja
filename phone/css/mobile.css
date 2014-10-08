@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	width:100vw;
+	height:100vh;
+	padding:0;
+	margin:0;	
+	overflow:hidden;
+}
+
+.header {
+	padding:0;
+	background-color: #001e38;	
+	width:100vw;
+	height:30%;
+}
+
+.header #login {
+	position:absolute;
+	right:10%;
+	top:2%;	
+}
+
+.header #logo {
+	position:absolute;
+	left:40%;	
+}
+
+.header #home {
+	position:absolute;
+	left:10%;
+	top:2%;	
+}
+
+.blog , .left-inner-addon-form ,.company-info,.bottom-content.bottom , .form-field {
+	width:100vw;	
+}
+
+.bottom-content.container {
+	margin:0;
+	width:80%;	
+}
+
+.form-field form {
+	width:80%;	
+}
+
+.btn-form-bottom {
+	width:180px;	
+}
+
+.company-info , .form-field , .addressbar{
+	min-height:200px;
+	height:50%;	
+}
+
+.company-info p {
+	
+	position:absolute;
+	left:10%;
+	right:10%;	
+	height:auto;
+}
+
+.left-inner-addon-form {
+	padding-left:0;
+	padding-right:0;	
+}
+
+.form-field {
+	min-height:400px;
+	height:100%;	
+}
+
+.col-md-6 {
+	width:80%;	
+}
+
+.addressbar .col-md-6 {
+	position:absolute;
+	left:10%;
+	right:10%;	
+	padding:2px;	
+}
+
+.addressbar.col-md-12 ,.footer{
+	width:100vw;	
+}
+

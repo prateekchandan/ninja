@@ -1,0 +1,1 @@
+<p>All the information about scholarship can be placed here... </p><p>Example: for students having more than 90% in 10th standard, would get 20% scholarship.</p><p>Top hundred students in the entrance test would get 30% scholarship.</p>

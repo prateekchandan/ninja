@@ -1,0 +1,248 @@
+/* Global Styles */
+/*Fonts Definition */
+@font-face {
+    font-family: infermap;
+  src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: we_are_hiring;
+  src: url(./fonts/BebasNeue.otf);
+}
+@font-face {
+    font-family: prateek;
+  src: url(./fonts/Lato-Light.ttf);
+}
+body {
+    font-family: infermap;
+    overflow-x:hidden; 
+    padding-top: 57px;
+}
+/* TOP BAR STYLING  */
+#brand-img{
+	position: fixed;
+	margin: 0px;
+	padding: 0px;
+	top:0px;
+	margin-left: 0px;
+	z-index: 100;
+	width: 40px;
+}
+.top-bar{
+	position: fixed;
+	top:0px;
+	left: 0px;
+	width: 100%;
+	background-color: #02294A;
+	height: 50px;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 50px;
+	z-index: 10;	
+	font-family: we_are_hiring;
+}
+.top-bar li{
+	margin-right: -2px;
+	height: 100%;
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	border-left: 2px solid white;
+	padding: 6px;
+}
+
+.top-bar li:first-child{
+	border-left: 0px;
+	width: 28%;
+	margin-left: 10%;
+}
+.top-bar li a {
+	display: block;
+	color: white ;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+.top-bar li a:hover{
+	color:#f7f7f7;
+}
+/* SEARCH BAR STYLING  */
+.second-bar{
+	display: none;
+	position: fixed;
+	width: 100%;
+	background: #ccc;
+	top:44px;
+	height: 32px;
+	margin: 0px;
+	padding: 0px;
+	z-index: 10;
+}
+#search-form{
+	margin-left: 50%;
+	width: 50%;
+}
+#keyword-value{
+	width: 70%;
+	padding: 2px;
+	margin: 2px;
+	padding-left: 10px;
+	color: #666;
+}
+.searchbar-btn{
+	background-color: #fff;
+	border: 0px;
+	padding: 3px;
+	width: 29px;
+	margin-left: -37px;
+}
+
+/*** Sidebar Navigation **/
+.sidebar{
+	box-shadow: 0px 0px 10px #ccc;
+	position: fixed;
+	top:44px;
+	left:-60%;
+	width: 60%;
+	min-height: 100%;
+	background: #555;
+	z-index: 9;
+	padding-top: 30px;
+}
+
+.sidebar .marker{
+	box-shadow: 0px 0px 10px #ccc;
+	position: absolute;
+	top: 200px;
+	height: 50px;
+	width: 50px;
+	right: -50px;
+	border: 1px solid #eee;
+	border-bottom-right-radius: 7px;
+	border-top-right-radius: 7px;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 10px;
+	background: #555;
+	color: #eee;
+}
+
+.sidebar-list{
+	list-style: none;
+	font-family: we_are_hiring;
+	font-size: 1.3em;
+	padding: 0px;
+	margin: 0px;
+}
+.sidebar-list li{
+	
+}
+.sidebar-list li a{
+	display: block;
+	width: 100%;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #bbb;
+}
+.tab-selector{
+	background: #ccc;
+	width: 5px;
+	height: 17px;
+	padding: 2px;
+	display: inline-block;
+	margin-right: 4px;
+}
+
+/* Style for the header */
+.college-header{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.college-header:after {
+clear: both;
+}
+.college-header:before, .college-header:after {
+display: table;
+content: " ";
+}
+.college-header .address{
+	float: left;
+	width: 80%;
+}
+.college-header .logo{
+	float: left;
+	width: 20%;
+}
+#college-logo{
+	max-height: 100px;
+	width: 100%;
+}
+#college-name{
+	font-size: 1.3em;
+    font-weight: bold;
+    font-family: prateek;
+    letter-spacing: -1px;
+}
+.short-address {
+    font-size: 1.0em;
+    margin-top: -5px;
+    color: #777;
+}
+
+/*  Paragrapg styling  */
+.article{
+	padding: 15px;
+}
+.section-sub-heading{
+	font-size: 1.2em;
+	text-align: center;
+	width: 100%;
+	padding: 5px;
+	color: white;
+	background: #F39F19;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.section-sub-sub-heading{
+	font-weight: bold;
+}
+.mycol-md-8{
+	width: 70%;
+	float: left;
+}
+.mycol-md-4{
+	width: 30%;
+	float: left;
+}
+
+.tab-content{
+	min-height: 300px;
+}
+
+/*   Table styling  */
+.mytable tr:first-child{
+	background: #ddd;
+}
+
+/*  FOOTER   */
+.footer{
+	width: 100%;
+	min-height: 32px;
+	background: #18191E;
+	border-top: 1px solid #FE6700;
+	padding: 4px;
+	padding-left: 15px;
+}
+.footer a{
+	display: block;
+	color: #999;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+.footer a:hover{
+	color: #999;
+	text-decoration: none;
+}

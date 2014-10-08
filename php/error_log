@@ -1,0 +1,58 @@
+[22-Jul-2014 05:19:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 05:19:16 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 05:19:16 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 08:28:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 08:28:22 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 08:28:22 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 08:28:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 08:28:43 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 08:28:43 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 11:28:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 11:28:59 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 11:29:00 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 11:29:17 UTC] PHP Notice:  Undefined variable: no in /home/infermap/public_html/php/compareadd.php on line 144
+[22-Jul-2014 11:29:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 171
+[22-Jul-2014 11:29:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 171
+[22-Jul-2014 11:29:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 11:29:25 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 11:29:25 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 11:29:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 11:29:44 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 11:29:44 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 11:29:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 11:29:54 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 11:29:54 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 15:00:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 15:00:08 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 15:00:08 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 15:32:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 15:32:33 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 15:32:33 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 16:43:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 16:43:28 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 16:43:28 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 16:43:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 16:43:31 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 16:43:31 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 16:44:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 16:44:00 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 16:44:00 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 16:44:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 16:44:02 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 16:44:02 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 16:44:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 16:44:03 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 16:44:03 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 16:44:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 16:44:03 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 16:44:03 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 16:44:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 16:44:06 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 16:44:06 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 16:44:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 16:44:37 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 16:44:37 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48
+[22-Jul-2014 16:44:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 16:46:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/infermap/public_html/php/compareadd.php on line 38
+[22-Jul-2014 16:46:17 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 45
+[22-Jul-2014 16:46:17 UTC] PHP Notice:  Undefined variable: i in /home/infermap/public_html/php/compareadd.php on line 48

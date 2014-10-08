@@ -1,0 +1,27 @@
+#This line for stop indexing files in all folder if index file is not present
+Options -Indexes
+
+ErrorDocument 404 http://data.infermap.com/error/404.php
+ErrorDocument 401 http://data.infermap.com/error/404.php
+ErrorDocument 403 http://data.infermap.com/error/404.php
+ErrorDocument 500 http://data.infermap.com/error/404.php
+
+#These lines are preventing clients directly opening files type css,js,png and jpg
+RewriteEngine on 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?127.0.0.1 [NC] 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?127.0.0.1.*$ [NC] 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?localhost [NC] 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?localhost.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?data.infermap.com [NC] 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?data.infermap.com.*$ [NC] 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?www.infermap.com [NC] 
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?www.infermap.com.*$ [NC] 
+RewriteRule \.(js|css|jpg|php)$ - [F]
+RewriteEngine on
+RewriteRule ^(.*)\.[\d]{10}\.(css|js|png|jpg|php)$ $1.$2 [L]
+
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+SecFilterInheritance Off
+</IfModule>

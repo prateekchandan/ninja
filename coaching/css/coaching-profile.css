@@ -1,0 +1,594 @@
+/* Global Styles */
+/*Fonts Definition */
+@font-face {
+    font-family: infermap;
+  src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: we_are_hiring;
+  src: url(./fonts/BebasNeue.otf);
+}
+
+@font-face {
+    font-family: prateek;
+  src: url(./fonts/Lato-Light.ttf);
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    min-width: 300px;
+    min-height: 400px;
+    padding-top: 87px;
+    font-family: infermap;
+}
+
+ul>li {
+    list-style-image: url(../img/bullet.PNG);
+}
+.modal-content{
+    background-color: rgb(250, 255, 255)
+    border-radius: 0px;
+}
+/* The heading for the page */
+.navbar-collapse {
+    height:46px;
+    background-color: #02294A;
+    padding: 0px;
+    padding-right: 20px;
+}
+.brand-image{
+    height:46px;
+}
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-nav, .navbar-nav>li, .navbar-nav>li>a {
+    height: 46px;
+}
+/* Styling of the search bar on top of page */
+.add-on .input-group-btn > .btn {
+    border-radius: 0px;
+    border-left-width: 0;
+    left: -2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    color: grey;
+}
+
+.add-on .input-group-btn > .btn:hover {
+    border-left-width: 0;
+    left: -2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background-color: white;
+    border-color: #CCC;
+    color: black;
+}
+
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-color: #cccccc;
+}
+
+#searchbar {
+    width: 40%;
+    float: right;
+}
+
+#searchbar-container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #E5E3E4;
+    overflow: auto;
+    border-bottom: 1px solid #BBB;
+}
+
+#searchbar>input {
+    border-radius: 0px;
+}
+
+/*Navigation Tabs */
+#coaching-nav-tabs {
+    border-bottom: 1px solid #CDCCCC;
+    border-right: 1px solid #CDCCCC;
+    border-top: 1px solid #CDCCCC;
+    padding-right: 8%;
+    padding-left: 8%;
+    position: fixed;
+    top: 46px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 100;
+    font-family: we_are_hiring;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    height:42px;
+}
+#coaching-nav-tabs li,#coaching-nav-tabs li:hover {
+    border-left: 1px solid #BBB;
+}
+
+#coaching-nav-tabs li a {
+    color: black;
+    position: relative;
+    display: block;
+    padding: 3px 15px;
+}
+
+#coaching-nav-tabs li.active a {
+    color: #011D36;
+    border: 0px;
+    border: 1px solid white;
+    border-bottom: 1px solid #BBB;
+}
+
+#coaching-nav-tabs li a:hover {
+    color: black;
+    background-color: white;
+    border: 0px;
+    border: 1px solid white;
+    border-bottom: 1px solid #BBB;
+}
+
+.tab-selector {
+    width: 17px;
+    height: 5px;
+    background-color: #CCCCCC;
+}
+
+#coaching-nav-tabs li a:hover div {
+    background-color: #B1B1B1;
+}
+
+#coaching-nav-tabs li.active a div, #coaching-nav-tabs li.active a:hover div {
+    background-color: #FE7F29;
+}
+
+/* The part of the head containing the name of coaching */
+.hr-full {
+    border: 1px solid #ccc;
+}
+
+.coaching-head {
+    margin-bottom: 10px;
+}
+
+#coaching-logo {
+    width: 80%;
+    max-width: 150px;
+}
+
+#coaching-name {
+    font-size: 3.0em;
+    font-weight: bold;
+    font-family: prateek;
+    letter-spacing: -1px;
+}
+
+.short-address {
+    margin-top: -10px;
+    color: #777;
+}
+
+.tab-content {
+    min-height: 500px;
+}
+
+.coaching-content {
+    max-width: 960px;
+    margin: auto;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.7333;
+    text-align: justify;
+}
+/*STYling for the carousel */
+
+
+
+.carousel-caption {
+    margin-bottom: -35px;
+}
+
+.carousel-caption>h4 {
+    margin-bottom: -10px;
+}
+
+.vert-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: 50%;
+    color: #aaaaaa;
+}
+
+#imgmain {
+    position: relative;
+    z-index: 2;
+}
+
+/* Style for all the headings used in page*/
+.section-sub-heading {
+    padding-top: 20px;
+    font-size: 24px;
+    padding-bottom: 1%;
+    letter-spacing: 2px;
+}
+
+.section-sub-sub-heading {
+    padding-bottom: 1%;
+    font-size: 20px;
+}
+
+/*Style for the social links on the contact page */
+#socials {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+}
+
+#socials a {
+    color: inherit;
+}
+
+#socials div {
+    margin-left: 15px;
+}
+
+#socials a:hover {
+    font-size: 1.1em;
+}
+
+/*******************************************************************************************************************************/
+/*footer*/
+footer {
+    left: 0px;
+    width: 100%;
+    min-height: 50px;
+    border-top: 1px solid #FE6700;
+    background-color: #18191E;
+}
+@media screen and (max-width: 1000px){
+    .coaching-content{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+.form-horizontal {
+    padding: 40px 40px;
+}
+
+#connectwith {
+    font-family: monospace;
+    text-align: center;
+}
+
+.btn-fb:hover, .btn-fb:focus, .btn-fb:active, .btn-fb.active {
+    color: #fff;
+    background-color: #002e93;
+    border-color: #002e93;
+}
+
+.btn-fb {
+    background-color: #002ea3;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    background-color: #666;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    background-color: #000;
+}
+
+::-webkit-scrollbar-corner {
+}
+
+::-moz-selection {
+    background-color: #F7D358;
+}
+
+::selection {
+    background-color: #F7D358;
+}
+
+.edit-button {
+    color: rgb(0, 143, 255);
+    margin-bottom: 2%;
+}
+
+.edit-button:hover {
+    color: rgb(0, 103, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.img-edit , .img-caption-edit ,.img-delete {
+    border: 2px dashed #bbbbbb;
+    border-radius: 20px;
+    padding: 2%;
+    display: none;
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+}
+
+.img-edit {
+    background: url('../img/drop.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.img-edit:after {
+    opacity: 0;
+}
+
+.mytable tr:first-child {
+    font-weight: bold;
+}
+.mytable{
+    text-align: center;
+}
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-sizing: border-box;
+}
+
+table>tbody>tr>td {
+    padding: 7px;
+}
+
+#socials {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+}
+
+#socials a {
+    color: inherit;
+}
+
+#socials div {
+    margin-left: 15px;
+}
+
+#socials a:hover {
+    font-size: 1.1em;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+#fblinka:hover {
+    color: #3b5998;
+}
+
+#linkedlinka:hover {
+    color: #007fb1;
+}
+
+#twitterlinka:hover {
+    color: #39a9e0;
+}
+
+#pluslinka:hover {
+    color: #d14836;
+}
+
+#weblinka:hover {
+    color: #333;
+}
+
+#fblinka {
+    color: #3b5998;
+}
+
+#linkedlinka {
+    color: #007fb1;
+}
+
+#twitterlinka {
+    color: #39a9e0;
+}
+
+#pluslinka {
+    color: #d14836;
+}
+
+#weblinka:hover {
+    color: #333;
+}
+
+#total-editable {
+    padding-bottom: 4px;
+}
+
+#ce {
+    margin-top: 34px;
+}
+
+nav , nav a {
+    color: white;
+}
+
+#loading {
+    widht: 100%;
+    margin-top: -27%;
+}
+
+#loading-bar {
+    margin-top: 20%;
+    text-align: center;
+}
+
+#map {
+    border: 2px solid #444;
+}
+
+.myselect {
+    padding: 6px;
+    height: 34px;
+    font-size: 14px;
+    width: 50%;
+    color: #666;
+    -webkit-box-shadow: inset 0 1px 1px rgba(255,0,0,0.075);
+}
+
+select:focus {
+    border-color: rgba(249,0,249,0.5);
+}
+
+#notificationspot {
+    padding: 10px;
+    padding-top: 0px;
+    color: black;
+    z-index: 1032;
+    display: none;
+    position: fixed;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #999;
+    box-shadow: 0px 0px 25px grey;
+}
+
+.onenotification {
+    width: 100%;
+    padding: 5px;
+    border-top: 1px solid #ddd;
+}
+
+#notificationslink:hover {
+    cursor: pointer;
+}
+
+#feedbackbtn {
+    position: fixed;
+    right: -20px;
+    top: 170px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+#feedbackpot {
+    opacity: 0;
+    border: 1px solid #999;
+    box-shadow: 0px 0px 25px grey;
+    color: black;
+    padding: 20px;
+    position: fixed;
+    top: 72px;
+    min-width: 400px;
+    right: -100px;
+    background-color: white;
+    z-index: 1031;
+    display: none;
+}
+
+#typeofFee {
+    font-family: open sans;
+    font-size: 24px;
+    color: inherit;
+}
+
+.coaching-address {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 10%;
+    height: 50px;
+    border-bottom: 0.5px solid #333;
+    margin-bottom: 5px;
+}
+
+.input-address {
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.input-area {
+    min-width: 280px;
+}
+
+.td-editable {
+    background-color: #fff;
+}
+
+.table-controls {
+    margin: 5px;
+}
+
+.coaching-website-link {
+    padding: 6px;
+}
+
+.coaching-website-link>a,.coaching-website-link>a:hover {
+    color: #333;
+}
+
+#notificationsbadge {
+    background-color: #ee0000;
+    font-size: 0.4em;
+    left: 15px;
+    top: 0px;
+    position: absolute;
+}
+
+#waiting {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+}
+#instruction>.modal-dialog{
+    width: 80%;
+}

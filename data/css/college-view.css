@@ -1,0 +1,479 @@
+/* Global Styles */
+/*Fonts Definition */
+@font-face {
+    font-family: infermap;
+  src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: we_are_hiring;
+  src: url(./fonts/BebasNeue.otf);
+}
+
+@font-face {
+    font-family: prateek;
+  src: url(./fonts/Lato-Light.ttf);
+}
+
+body {
+    height: 100%;
+    
+    min-height: 400px;
+    font-family: infermap;
+    overflow-x:hidden; 
+}
+html::-webkit-scrollbar {
+    width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6); 
+}
+ul>li {
+    list-style-image: url(../img/bullet.PNG);
+}
+.modal-content{
+    background-color: rgb(250, 255, 255)
+    border-radius: 0px;
+}
+/* The heading for the page */
+#navbar-top{
+
+}
+
+.navbar-collapse {
+    height:40px;
+    line-height: 35px;
+    background-color: #02294A;
+    padding: 0px;
+    padding-right: 20px;
+}
+#brand-img{
+  margin-left:50px;
+}
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-nav, .navbar-nav>li, .navbar-nav>li>a {
+    height: 46px;
+}
+/* Styling of the search bar on top of page */
+.add-on .input-group-btn > .btn {
+    border-radius: 0px;
+    border-left-width: 0;
+    left: -2px;
+    height:30px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    color: grey;
+}
+
+.add-on .input-group-btn > .btn:hover {
+    border-left-width: 0;
+    left: -2px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background-color: white;
+    border-color: #CCC;
+    color: black;
+}
+
+/* FEEDBACK */
+#feedbackpot {
+    opacity: 0;
+    border: 1px solid #999;
+    box-shadow: 0px 0px 25px grey;
+    color: black;
+    padding: 20px;
+    position: fixed;
+    top: 72px;
+    min-width: 400px;
+    right: -100px;
+    background-color: white;
+    z-index: 1031;
+    display: none;
+}
+#feedbackbtn {
+    position: fixed;
+    right: -20px;
+    top: 210px;
+    border-radius: 0px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+
+/* Share buttons */
+#share-buttons{
+  position: fixed;
+  right: 5px;
+  top: 280px;
+  border: 1px solid #ddd;
+  
+}
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: block;
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-color: #cccccc;
+}
+
+#searchbar {
+    width: 40%;
+    float: right;
+    height:30px;
+}
+#searchbar-container {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #E5E3E4;
+    overflow: auto;
+    height:38px;
+    position: fixed;
+    top:46px;
+    z-index: 9999;
+    border-top: 1px solid #BBB;
+    overflow-y:hidden;
+}
+
+#searchbar>input ,#searchbardiv>div>button {
+    border-radius: 0px;
+    height: 30px;
+}
+
+/*Navigation Tabs */
+#college-nav-tabs , #college-nav-tabs-phone {
+    border-bottom: 1px solid #CDCCCC;
+    border-right: 1px solid #CDCCCC;
+    border-top: 1px solid #CDCCCC;
+    padding-right: 8%;
+    padding-left: 12%;
+    top: 50px;
+    width: 100%;
+  
+    background-color: #fff;
+    z-index: 100;
+    font-family: we_are_hiring;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    height:42px;
+}
+#college-nav-tabs-phone{
+  padding-right: 8px;
+  padding-left: 8px;
+  height: 84px;
+}
+#college-nav-tabs li,#college-nav-tabs li:hover , #college-nav-tabs-phone li,#college-nav-tabs-phone li:hover {
+    border-left: 1px solid #BBB;
+}
+ #college-nav-tabs-phone li , #college-nav-tabs-phone li.active , #college-nav-tabs-phone li:hover{
+  border-bottom: 1px solid #ccc;
+ }
+#college-nav-tabs li a , #college-nav-tabs-phone li a {
+    color: black;
+    position: relative;
+    display: block;
+    padding: 3px 15px;
+}
+
+#college-nav-tabs li.active a  {
+    color: #011D36;
+    border: 0px;
+    
+}
+ #college-nav-tabs-phone li.active a {
+    color: #011D36;
+   
+}
+#college-nav-tabs li a:hover  {
+  color: black;
+  background-color: white;
+  border: 0px;
+  
+}
+#college-nav-tabs-phone li a:hover{
+    color: black;
+  background-color: white;
+  border: 0px;
+}
+
+.tab-selector {
+  width: 17px;
+  height: 5px;
+  background-color: #CCCCCC;
+}
+
+#college-nav-tabs li a:hover div , #college-nav-tabs-phone li a:hover div {
+  background-color: #B1B1B1;
+}
+
+#college-nav-tabs li.active a div, #college-nav-tabs li.active a:hover div , #college-nav-tabs-phone li.active a div, #college-nav-tabs-phone li.active a:hover div {
+  background-color: #FE7F29;
+}
+
+/* The part of the head containing the name of college */
+.hr-full {
+  border: 1px solid #ccc;
+  margin-bottom: 3px;
+  margin-top: -1px;
+}
+
+.college-head {
+  width: 960px;
+  min-height: 125px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.college-head>div{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+#college-logo {
+  height: 120px;
+  width: auto;
+  margin-top: 10px;
+}
+
+#college-name {
+    font-size: 2.3em;
+    font-weight: bold;
+    font-family: prateek;
+    letter-spacing: -1px;
+}
+
+.short-address {
+    font-size: 1.2em;
+    margin-top: -5px;
+    color: #777;
+}
+
+.tab-content {
+    min-height: 500px;
+}
+
+.college-content {
+    max-width: 960px;
+    margin: auto;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.7333;
+    text-align: justify;
+}
+
+.facility-icon{
+  margin-top: -40px;
+  margin-left: 10px;
+  height: 35px;
+}
+/*STYling for the carousel */
+
+#carousel-gallery {
+    margin-left: 30px;
+    height: 285px;
+    width: 522px;
+    margin-top: 5%;
+}
+
+#carousel-foreground{
+  position: absolute;
+  z-index: 11;
+  pointer-events:none;
+}
+/*
+#carousel-gallery:before {
+    position: absolute;
+    content: '';
+    background: rgba(0,0,0, 0.1); /*partially transparent image
+    width: 348px;
+    height: 194px;
+    pointer-events: none;
+}
+**/
+#carousel-gallery img {
+    width: 100%;
+    height: 285px;
+}
+
+.carousel-caption {
+    margin-bottom: -35px;
+}
+
+.carousel-caption>h4 {
+    margin-bottom: -10px;
+}
+
+.vert-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: 50%;
+    color: #aaaaaa;
+}
+
+#imgmain {
+    position: relative;
+    z-index: 2;
+}
+
+/* Style for all the headings used in page*/
+.section-sub-heading {
+    padding-top: 20px;
+    font-size: 24px;
+    padding-bottom: 1%;
+    letter-spacing: 2px;
+}
+
+.section-sub-sub-heading {
+    padding-bottom: 1%;
+    font-size: 20px;
+}
+
+/*Style for the social links on the contact page */
+#socials {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-box;
+    display: box;
+}
+
+#socials a {
+    color: inherit;
+}
+
+#socials div {
+    margin-left: 15px;
+}
+
+#socials a:hover {
+    font-size: 1.1em;
+}
+
+.mytable tr:first-child {
+    font-weight: bold;
+}
+.mytable tr:first-child>td,.mytable tr:first-child>th{
+  background-color: #F0EFFF;;
+  color: #111;
+}
+/*********/
+/* RELATED COLLEGES */
+.related-colleges-div{
+    left: 0px;
+    width: 100%;
+    min-height: 100px;
+    color: #FE6700;
+    background-color:#333539;;
+    padding:0px;
+}
+/*******************************************************************************************************************************/
+/*footer*/
+.footer {
+    left: 0px;
+    width: 100%;
+    min-height: 50px;
+    border-top: 1px solid #FE6700;
+    background-color: #18191E;
+    padding:0px;
+}
+.footer-content{
+  margin:auto;
+  max-width:960px;
+}
+.footer-btn{
+  width:45%;
+  margin-right:4%;
+  color:#999999;
+  border:1px solid #999999;
+  border-radius:0px;
+  background-color: rgba(0,0,0,0);
+}
+.footer-btn:hover{
+  color:#111;
+  background-color: #FE6700;
+}
+.copyright-link{
+  font-size: 16px;
+  color:#999;
+}
+.copyright-link:hover{
+  color:#999;
+}
+
+.about-text {
+  padding-right: 5px;
+   overflow: scroll;
+}
+.about-text::-webkit-scrollbar {
+    width: 3px;
+}
+
+.about-text::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2); 
+    border-radius: 10px;
+}
+
+.about-text::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+.facilty-icon{
+  text-align:right;padding-right:25%;
+}
+#college-nav-tabs-phone{
+  display: none;
+}
+@media screen and (max-width :900px){
+  body{
+    padding-top: 124px;
+  }
+  #college-logo{
+    display: none;
+  }
+  .facility-icon{
+    margin-top: 0px;
+    padding:0px;
+  }
+  .col-sm-10{
+    width: 100%;
+  }
+  #myTabContent,.college-head{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .college-gallery{
+    margin-left: 20px;
+    min-width: 0px;
+  }
+  #college-nav-tabs-phone{
+    display: block;
+  }
+  #college-nav-tabs{
+    display: none;
+  }
+  #brand-img{
+    margin: 0px;
+  }
+}
